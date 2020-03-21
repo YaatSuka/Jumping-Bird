@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
     private Canvas gameOverCanvas;
     private Button exitBtn;
     private Canvas pauseMenuCanvas;
+    private AudioSource audioSource;
     private int score = 0;
     private bool onPause = false;
 
@@ -29,6 +30,11 @@ public class GameController : MonoBehaviour
         gameOverCanvas.enabled = false;
         pauseMenuCanvas = GameObject.Find("PauseMenu").GetComponent<Canvas>();
         pauseMenuCanvas.enabled = false;
+
+        audioSource = GetComponent<AudioSource>();
+        if (AudioSettings.Music) {
+            audioSource.Play();
+        }
     }
 
     // Update is called once per frame

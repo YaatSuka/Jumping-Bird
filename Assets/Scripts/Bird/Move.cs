@@ -8,6 +8,7 @@ public class Move : MonoBehaviour
     public float introTime = 0.5f;
 
     private Rigidbody2D rb;
+    private AudioSource audioSource;
     private bool dead = false;
     private bool started = true;
 
@@ -15,6 +16,7 @@ public class Move : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
         
         rb.constraints = RigidbodyConstraints2D.FreezePositionY;
         Invoke("PlayIntro", introTime);
@@ -25,6 +27,9 @@ public class Move : MonoBehaviour
     {
         if (started && !dead && (Input.GetMouseButtonDown(0) || Input.GetKeyDown("space"))) {
             rb.velocity = Vector2.up * jumpSpeed;
+            if (AudioSettings.Sound) {
+                audioSource.Play();
+            }
         }   
     }
 
