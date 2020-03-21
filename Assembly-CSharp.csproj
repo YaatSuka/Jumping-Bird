@@ -51,11 +51,13 @@
      <Compile Include="Assets\Scripts\Background\ScrollingSpeedController.cs" />
      <Compile Include="Assets\Scripts\Bird\Move.cs" />
      <Compile Include="Assets\Scripts\Game\GameController.cs" />
-     <Compile Include="Assets\Scripts\Menu\GameOverMenuController.cs" />
      <Compile Include="Assets\Scripts\Menu\MainMenuController.cs" />
+     <Compile Include="Assets\Scripts\Menu\UIController.cs" />
      <Compile Include="Assets\Scripts\Obstacles\CollisionController.cs" />
      <Compile Include="Assets\Scripts\Obstacles\ObstaclesScoreController.cs" />
      <Compile Include="Assets\Scripts\Obstacles\ObstaclesScrolling.cs" />
+     <Compile Include="Assets\Scripts\Obstacles\ProceduralGeneration\PipeDestructor.cs" />
+     <Compile Include="Assets\Scripts\Obstacles\ProceduralGeneration\PipeGeneration.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

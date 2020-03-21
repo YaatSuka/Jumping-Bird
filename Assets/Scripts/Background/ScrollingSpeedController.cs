@@ -11,7 +11,7 @@ public class ScrollingSpeedController : MonoBehaviour
     private BackgroundScrolling backgroundScrolling;
     private ObstaclesScrolling obtaclesScrolling;
     private GroundScrolling groundScrolling;
-    private float timer = 20f;
+    private float timer = 15f;
     private int idx = 1;
     private bool frozen = false;
 
@@ -25,10 +25,13 @@ public class ScrollingSpeedController : MonoBehaviour
         groundScrolling = ground.GetComponent<GroundScrolling>();
 
         dict[0] = 3f;
-        dict[1] = 4f;
-        dict[2] = 5f;
-        dict[3] = 7f;
-        dict[4] = 9f;
+        dict[1] = 3.5f;
+        dict[2] = 4f;
+        dict[3] = 4.5f;
+        dict[4] = 5f;
+        dict[5] = 5.5f;
+        dict[6] = 6f;
+        dict[7] = 6.5f;
 
         obtaclesScrolling.speed = dict[0];
         groundScrolling.updateSpeed();
