@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - GroundScrolling
     - MainMenuController
     - Move
+    - ObstaclesMoving
     - ObstaclesScoreController
     - ObstaclesScrolling
     - PipeDestructor
@@ -103,21 +104,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12014}
     - Class: 114
-      Script: {instanceID: 12204}
+      Script: {instanceID: 12206}
     - Class: 114
-      Script: {instanceID: 12258}
+      Script: {instanceID: 12260}
     - Class: 114
-      Script: {instanceID: 12310}
+      Script: {instanceID: 12312}
     - Class: 114
-      Script: {instanceID: 12478}
+      Script: {instanceID: 12480}
     - Class: 114
-      Script: {instanceID: 12720}
+      Script: {instanceID: 12722}
     - Class: 114
-      Script: {instanceID: 12828}
+      Script: {instanceID: 12830}
     - Class: 114
-      Script: {instanceID: 13042}
+      Script: {instanceID: 13006}
     - Class: 114
-      Script: {instanceID: 13106}
+      Script: {instanceID: 13048}
+    - Class: 114
+      Script: {instanceID: 13112}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -178,19 +181,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11790}
     - Class: 114
-      Script: {instanceID: 12204}
+      Script: {instanceID: 12206}
     - Class: 114
-      Script: {instanceID: 12316}
+      Script: {instanceID: 12318}
     - Class: 114
-      Script: {instanceID: 12720}
+      Script: {instanceID: 12722}
     - Class: 114
-      Script: {instanceID: 13042}
+      Script: {instanceID: 12960}
     - Class: 114
-      Script: {instanceID: 13106}
+      Script: {instanceID: 13048}
     - Class: 114
-      Script: {instanceID: 13122}
+      Script: {instanceID: 13112}
     - Class: 114
-      Script: {instanceID: 20722}
+      Script: {instanceID: 13128}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -606,6 +609,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SettingsController
+  - hash:
+      serializedVersion: 2
       Hash: df434544c9f7b33d1cc7e635b180d279
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -616,6 +625,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 994f8d6a9b7def4526c11e3f9f193bec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObstaclesMoving
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -706,12 +721,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SettingsController
   platform: 5
   scenePathNames:
   - Assets/Scenes/MenuScene.unity
