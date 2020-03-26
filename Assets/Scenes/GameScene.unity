@@ -2101,6 +2101,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 73234929}
     m_Modifications:
+    - target: {fileID: 2104251704363181774, guid: cfb5bb7d8e7c9b24aad53163c9f096fc,
+        type: 3}
+      propertyPath: xMargin
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2104251704363181774, guid: cfb5bb7d8e7c9b24aad53163c9f096fc,
+        type: 3}
+      propertyPath: isMovingHorizontally
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8867640995642694723, guid: cfb5bb7d8e7c9b24aad53163c9f096fc,
         type: 3}
       propertyPath: m_Name
